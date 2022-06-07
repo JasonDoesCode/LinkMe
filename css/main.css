@@ -39,4 +39,12 @@ body {
   margin-bottom: 2em;
   border-radius: 2em;
 }
+
+.ProfilePic {
+  width: 10em;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  margin: auto auto;
+  margin-bottom: 2em;
+}
 /*# sourceMappingURL=main.css.map */
