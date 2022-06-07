@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 85%;
+    max-width: 45em;
+    margin: 3em auto;
+}
+
+.links {
+    margin-top: 2.5em;
+}
+
+.btn {
+    display: block;
+    text-decoration: none;
+    color: var(--clr-text, white);
+    background-color: black;
+    padding: 1.2em 1.25em;
+    margin-bottom: 2em;
+    border-radius: 2em;
+}
