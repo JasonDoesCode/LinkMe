@@ -18,8 +18,8 @@ img {
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-family: 'Courier New', Courier, monospace;
   text-align: center;
   width: 85%;
   max-width: 45em;
@@ -40,11 +40,25 @@ body {
   border-radius: 2em;
 }
 
+.btn:hover,
+.btn:focus {
+  color: var(--clr-text, black);
+  background-color: #e6e6e6;
+}
+
 .ProfilePic {
   width: 10em;
   -webkit-clip-path: circle();
           clip-path: circle();
   margin: auto auto;
   margin-bottom: 2em;
+}
+
+.Username {
+  margin-bottom: 0.1em;
+}
+
+.Bio {
+  font-weight: 300;
 }
 /*# sourceMappingURL=main.css.map */
