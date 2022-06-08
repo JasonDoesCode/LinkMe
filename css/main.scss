@@ -30,15 +30,20 @@ body {
 }
 
 .btn {
-    display: block;
+    // display: block;
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: var(--clr-text, white);
     background-color: black;
     padding: 1.2em 1.25em;
     margin-bottom: 2em;
     border-radius: 2em;
-    // transition:
-    //     transform 500ms ease-in-out;
+}
+
+.btn>*+* {
+    margin: auto auto;
+    padding-right: 2em;
 }
 
 .btn:hover,
@@ -60,4 +65,8 @@ body {
 
 .Bio {
     font-weight: 300;
+}
+
+.Icon {
+    width: 2em;
 }
