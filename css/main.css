@@ -75,4 +75,14 @@ body {
 .Icon {
   width: 2em;
 }
+
+.footer {
+  margin-top: 18em;
+}
+
+.GitLink {
+  font-weight: 300;
+  text-decoration: none;
+  color: #8d8d8d;
+}
 /*# sourceMappingURL=main.css.map */
