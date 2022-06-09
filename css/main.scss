@@ -39,6 +39,7 @@ body {
     padding: 1.2em 1.25em;
     margin-bottom: 2em;
     border-radius: 2em;
+    transition: ease-in-out 250ms;
 }
 
 .btn>*+* {
@@ -48,6 +49,7 @@ body {
 
 .btn:hover,
 .btn:focus {
+    transform: scale(1.1);
     color: var(--clr-text, black);
     background-color: rgb(230, 230, 230);
 }
@@ -57,6 +59,8 @@ body {
     clip-path: circle();
     margin: auto auto;
     margin-bottom: 2em;
+
+    transition: ease-in-out 250ms;
 }
 
 .Username {

@@ -43,6 +43,8 @@ body {
   padding: 1.2em 1.25em;
   margin-bottom: 2em;
   border-radius: 2em;
+  -webkit-transition: ease-in-out 250ms;
+  transition: ease-in-out 250ms;
 }
 
 .btn > * + * {
@@ -52,6 +54,8 @@ body {
 
 .btn:hover,
 .btn:focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   color: var(--clr-text, black);
   background-color: #e6e6e6;
 }
@@ -62,6 +66,8 @@ body {
           clip-path: circle();
   margin: auto auto;
   margin-bottom: 2em;
+  -webkit-transition: ease-in-out 250ms;
+  transition: ease-in-out 250ms;
 }
 
 .Username {
